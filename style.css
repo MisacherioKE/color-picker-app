@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  background-color: teal;
+}
+
+.open-modal {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+  margin: -25px 0 0 -25px;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 28px;
+  color: #2c2c2c;
+  padding: 32px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+} */
+
+/* .open-modal:hover {
+  background-color: #2c2c2c;
+  border: 2px solid #f2f2f2;
+  color: #f2f2f2;
+  cursor: pointer;
+  transition: 0.5s;
+} */
+
+/* .modal { */
+/*display: none;  Hidden by default */
+/*position: fixed; /* Stay in place */
+/*z-index: 1; /* Sit on top */
+/* left: 0;
+  top: 0; */
+/*width: 100%; /* Full width */
+/*height: 100%; /* Full height */
+/*overflow: auto; /* Enable scroll if needed */
+/*background-color: rgb(0, 0, 0); /* Fallback color */
+/*background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+/* } */
+
+/* .modal-hidden {
+  background-color: #fefefe; */
+/*margin: 15% auto; /* 15% from the top and centered */
+/*padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+/* } */
+
+/* .close-modal {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  background: none;
+  border: none;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} */
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+}
+
+.page-title {
+  text-align: center;
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.container {
+  display: flex;
+  width: 960px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.background-color {
+  position: absolute;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  top: 50%;
+  margin: -25px 0 0 -25px;
+  transform: translate(-50%, -50%);
+
+  left: 50%;
+  padding: 20px 0;
+  background: #2c2c2c;
+  border-radius: 8px;
+  width: 30%;
+  height: 10%;
+  align-items: center;
+}
+
+.flip-color {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 70px;
+  margin-left: -23px;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  background-color: #2c2c2c;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.flip-color:hover {
+  background-color: #f2f2f2;
+  border: 2px solid #2c2c2c;
+  color: #2c2c2c;
+  cursor: pointer;
+  transition: 0.5s;
+}
